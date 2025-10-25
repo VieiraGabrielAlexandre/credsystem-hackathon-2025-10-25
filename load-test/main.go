@@ -59,7 +59,7 @@ const (
 
 func main() {
 	if len(os.Args) != 4 {
-		fmt.Println("Usage: go run main.go <csv_file> <endpoint_url> <output_result>")
+		fmt.Println("Usage: go run pos_pre_loaded.go <csv_file> <endpoint_url> <output_result>")
 		os.Exit(1)
 	}
 
